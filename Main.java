@@ -18,6 +18,13 @@ public class Main {
     // declare the discount variable for the output
     int userDiscount;
 
+    /*
+    * for the discount to be 10% the cost must be inbetween 10 and 40
+    *for the discount to be 20% the cost must be inbetween 40 and 80
+    *for the discount to be 30% the cost must be inbetween 80 and 120
+    *for the discount to be 40% the cost must be above 120
+    */
+
     // figures out which discount bracket they go in
     if (moneySpent <= 40 && moneySpent > 0) {
       userDiscount = 10;
